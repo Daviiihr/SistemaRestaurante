@@ -1,0 +1,82 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+env/
+.env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+mi_base_de_datos.db
+
+# Archivos generados
+*.pdf
+carta.pdf
+boleta_*.pdf
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# Archivos de configuración local
+.env
+config.local.py
+
+# Caché de pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
