@@ -1,0 +1,11 @@
+cached-property==2.0.1
+customtkinter==5.2.2
+darkdetect==0.8.0
+greenlet==3.2.4
+inflection==0.5.1
+mypy_extensions==1.1.0
+packaging==25.0
+SQLAlchemy==2.0.44
+sqlalchemy-orm==1.2.10
+typing-inspect==0.9.0
+typing_extensions==4.15.0
