@@ -176,7 +176,6 @@ class Aplicacion(ctk.CTk):
     # 3. GESTIÓN MENÚS
 
     def _setup_gestion_menus(self):
-        """Pestaña para crear recetas nuevas desde la GUI"""
         frame = ctk.CTkFrame(self.tab_men)
         frame.pack(fill="both", expand=True, padx=10, pady=10)
         
