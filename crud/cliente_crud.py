@@ -23,7 +23,6 @@ class ClienteCRUD:
 
     @staticmethod
     def leer_clientes(db: Session):
-        """Obtiene todos los clientes en la base de datos."""
         return db.query(Cliente).all()
 
     @staticmethod
