@@ -7,7 +7,6 @@ from models import Pedido, menu_ingrediente, Menu, pedido_menu, Ingrediente
 def generar_grafico_menus_mas_vendidos(frame_destino):
     db = next(get_session())
     
-    # Aqui lo hice con gpt :p, lo intente solo y fracase TwT
     # Consulta compleja para contar ventas por menú
     resultados = db.query(Menu.nombre, func.sum(pedido_menu.c.cantidad))\
         .join(pedido_menu)\
@@ -36,7 +35,6 @@ def generar_grafico_menus_mas_vendidos(frame_destino):
     return True
 
 def generar_grafico_ingredientes(frame_destino):
-    """Genera un gráfico de torta con el stock actual de ingredientes"""
     db = next(get_session())
     # Filtramos ingredientes que tengan stock > 0 para que el gráfico no se vea feo
     ingredientes = db.query(Ingrediente).filter(Ingrediente.cantidad > 0).all()
